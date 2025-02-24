@@ -1,0 +1,84 @@
+.course-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 770px;
+    background-color: #262626;
+}
+
+.name-block {
+    margin: 30px;
+    font-size: 48px;
+}
+
+.tariffs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    background-color: #522f2f;
+}
+
+.tariff-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #7b7b7b;
+    width: 400px;
+    height: 100%;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.description-tariff {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    width: 80%;
+    height: 82%;
+    background-color: #680a0a;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.button-tariff {
+    width: 70%;
+    height: 50px;
+    margin: 5%;
+    background-color: rgba(255, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+}
+
+.button-tariff:hover {
+    background-color: rgba(110, 17, 17, 0.1);
+}
+
+.button-course-manager {
+    margin-top: 40px;
+    display: flex;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(123, 26, 26, 0.5);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: black;
+}
+
+.button-course-manager:hover {
+    background-color: rgba(110, 17, 17, 0.1);
+}

@@ -1,0 +1,35 @@
+.club-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 770px;
+    background-color: #1c1c1c;
+}
+
+.description-club {
+    display: flex;
+    width: 90%;
+    height: 73%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #815050;
+}
+
+.club-button {
+    margin-top: 20px;
+    display: flex;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(123, 26, 26, 0.5);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: black;
+}
+
+.club-button:hover {
+    background-color: rgba(110, 17, 17, 0.3);
+}
